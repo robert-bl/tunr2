@@ -1,0 +1,4 @@
+CREATE DATABASE tunr2;
+CREATE USER tunr2user WITH PASSWORD 'tunr2';
+GRANT ALL PRIVILEGES ON DATABASE tunr2 TO tunr2user;
+GRANT postgres TO tunr2user;
